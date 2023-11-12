@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .my-padding {
+  padding-top: 80px;
+
+} */
+/* basically what i want to say is on medium screens so right here and up i want this to be half the size okay so this is kind of split in the middle once on under medium which is here and less that looks pretty good so we don't really need to do anything there so we do need to use a media query in our css because we only want this to be in effect let's say min width and remember the the break point for medium is 768 so we're going to say as long as it's over 768 by saying the minimum width 768
+30:37
+then we're going to take our news input which is our custom class and we're going to say give it a width of 50 percent so now if i save that */
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+#map{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: coral;
+}
+@media(min-width: 768) {
+  .news-input{
+    width: 50%;
+  }
+}
