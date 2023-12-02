@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from '../map/Map';
 
 const Contact = () => {
   return (
@@ -29,8 +30,9 @@ const Contact = () => {
             
           </ul>
         </div>
-        <div class="col-md">
-          <div id="map"></div>
+        <div class="col-md" w-100 h-100>
+          {/* <div id="map"></div> */}
+          <Map/>
         </div>
       </div>
     </div>
